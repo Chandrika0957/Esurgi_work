@@ -1,0 +1,48 @@
+name: Build, Test, Deploy
+
+on:
+  push:
+    branches:
+      - main
+      - staging
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js 20
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run Tests
+        run: npm test
+
+      - name: Build the project
+        run: npm run build
+
+      - name: Install lftp
+        run: sudo apt-get install lftp -y
+
+      - name: Deploy to Production (Main Branch)
+        if: github.ref == 'refs/heads/main'
+        run: |
+          lftp -u ${{ secrets.FTP_USER }},${{ secrets.FTP_PASS }} ${{ secrets.FTP_HOST }} <<EOF
+          mirror -R --exclude .htaccess --exclude .well-known --delete --verbose build/ ${{ secrets.REMOTE_DIR }}
+          bye
+          EOF
+
+      - name: Deploy to Development (Staging Branch)
+        if: github.ref == 'refs/heads/staging'
+        run: |
+          lftp -u ${{ secrets.FTP_USER }},${{ secrets.FTP_PASS }} ${{ secrets.FTP_HOST }} <<EOF
+          mirror -R --exclude .htaccess --exclude .well-known --delete --verbose build/ ${{ secrets.DEV_REMOTE_DIR }}
+          bye
+          EOF
