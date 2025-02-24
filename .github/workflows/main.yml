@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - staging
 
 jobs:
   build-and-deploy:
@@ -30,9 +31,18 @@ jobs:
       - name: Install lftp
         run: sudo apt-get install lftp -y
 
-      - name: Deploy to SiteGround
+      - name: Deploy to Production (Main Branch)
+        if: github.ref == 'refs/heads/main'
         run: |
           lftp -u ${{ secrets.FTP_USER }},${{ secrets.FTP_PASS }} ${{ secrets.FTP_HOST }} <<EOF
           mirror -R --exclude .htaccess --exclude .well-known --delete --verbose build/ ${{ secrets.REMOTE_DIR }}
+          bye
+          EOF
+
+      - name: Deploy to Staging (staging Branch)
+        if: github.ref == 'refs/heads/staging'
+        run: |
+          lftp -u ${{ secrets.FTP_USER }},${{ secrets.FTP_PASS }} ${{ secrets.FTP_HOST }} <<EOF
+          mirror -R --exclude .htaccess --exclude .well-known --delete --verbose build/ ${{ secrets.DEV_REMOTE_DIR }}
           bye
           EOF
