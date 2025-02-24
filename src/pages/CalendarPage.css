@@ -1,0 +1,16 @@
+.fc .fc-daygrid-day-number {
+    color: #007173 !important; 
+}
+
+.fc .fc-col-header-cell-cushion {
+    color: #007173 !important;
+}
+
+.fc-toolbar-title {
+    color: black !important; 
+}
+
+.fc-event-title {
+    color: #007173 !important; 
+    font-size: 14px;
+}

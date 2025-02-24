@@ -1,0 +1,23 @@
+[
+    {
+       "code": "99454",
+       "description": "Remote monitoring of physiologic parameter(s) (e.g., weight, blood pressure, pulse oximetry, respiratory flow rate), device(s) supply with daily recording(s) or programmed alert(s) transmission, each 30 days. Similar to 99453, this code applies if the device monitors physiological parameters and functions remotely while the patient is at home."
+    },
+    {
+       "code": "99457",
+       "description": "Remote physiologic monitoring treatment management services, 20 minutes or more of clinical staff/physician/other qualified healthcare professional time in a calendar month requiring interactive communication with the patient/caregiver during the month. This code supports home-based use with ongoing remote monitoring and feedback from healthcare providers."
+    },
+    {
+       "code": "97760",
+       "description": "Orthotic management and training (including assessment and fitting when not otherwise reported), upper extremity(s), lower extremity(s), and/or trunk, initial orthotic(s) encounter. This could apply if the device functions similarly to orthotic training for home use and management."
+    },
+    {
+       "code": "97755",
+       "description": "Assistive technology assessment (e.g., to restore, augment, or compensate for existing function, optimize functional tasks and/or maximize environmental accessibility), direct one-on-one contact, with written report, each 15 minutes. This code may apply if the device is used as assistive technology that patients can manage and utilize independently at home."
+    },
+    {
+       "code": "97535",
+       "description": "Self-care/home management training (e.g., activities of daily living [ADL], compensatory training, meal preparation, safety procedures, and instructions in use of assistive technology devices/adaptive equipment), direct one-on-one contact, each 15 minutes. This code directly applies to home management and self-care training, making it highly relevant for demonstrating home use by the patient."
+    }
+ ]
+ 

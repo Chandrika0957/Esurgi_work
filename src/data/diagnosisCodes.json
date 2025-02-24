@@ -1,0 +1,189 @@
+[
+    {
+       "code": "ICD-10 M25.511",
+       "name": "Pain in right shoulder",
+       "additionalName": "N/A",
+       "billable": true
+    },
+    {
+       "code": "ICD-10 M25.512",
+       "name": "Pain in left shoulder",
+       "additionalName": "N/A",
+       "billable": true
+    },
+    {
+       "code": "ICD-10 M25.551",
+       "name": "Pain in right hip",
+       "additionalName": "N/A",
+       "billable": true
+    },
+    {
+       "code": "ICD-10 M25.552",
+       "name": "Pain in left hip",
+       "additionalName": "N/A",
+       "billable": true
+    },
+    {
+       "code": "ICD-10 M25.561",
+       "name": "Pain in right knee",
+       "additionalName": "N/A",
+       "billable": true
+    },
+    {
+       "code": "ICD-10 M25.562",
+       "name": "Pain in left knee",
+       "additionalName": "N/A",
+       "billable": true
+    },
+    {
+       "code": "ICD-10 M53.3",
+       "name": "Sacrococcygeal disorders, not elsewhere classified",
+       "additionalName": "Coccygodynia",
+       "billable": true
+    },
+    {
+       "code": "ICD-10 M54.5",
+       "name": "Low back pain",
+       "additionalName": "Loin pain, Lumbago NOS",
+       "billable": true
+    },
+    {
+       "code": "ICD-10 M54.6",
+       "name": "Pain in thoracic spine",
+       "additionalName": "N/A",
+       "billable": true
+    },
+    {
+       "code": "ICD-10 M54.89",
+       "name": "Other dorsalgia",
+       "additionalName": "N/A",
+       "billable": true
+    },
+    {
+       "code": "ICD-10 M54.9",
+       "name": "Dorsalgia, unspecified",
+       "additionalName": "Backache NOS, Back pain NOS",
+       "billable": true
+    },
+    {
+       "code": "ICD-10 M79.601",
+       "name": "Pain in right arm",
+       "additionalName": "Pain in right upper limb NOS",
+       "billable": true
+    },
+    {
+       "code": "ICD-10 M79.602",
+       "name": "Pain in left arm",
+       "additionalName": "Pain in left upper limb NOS",
+       "billable": true
+    },
+    {
+       "code": "ICD-10 M79.604",
+       "name": "Pain in right leg",
+       "additionalName": "Pain in right lower leg NOS",
+       "billable": true
+    },
+    {
+       "code": "ICD-10 M79.605",
+       "name": "Pain in left leg",
+       "additionalName": "Pain in left lower limb NOS",
+       "billable": true
+    },
+    {
+       "code": "ICD-10 M79.641",
+       "name": "Pain in right hand",
+       "additionalName": "N/A",
+       "billable": true
+    },
+    {
+       "code": "ICD-10 M79.642",
+       "name": "Pain in left hand",
+       "additionalName": "N/A",
+       "billable": true
+    },
+    {
+       "code": "ICD-10 M79.671",
+       "name": "Pain in right foot",
+       "additionalName": "N/A",
+       "billable": true
+    },
+    {
+       "code": "ICD-10 M79.672",
+       "name": "Pain in left foot",
+       "additionalName": "N/A",
+       "billable": true
+    },
+    {
+       "code": "ICD-10 S93.0R",
+       "name": "Dislocation of right ankle",
+       "additionalName": "N/A",
+       "billable": true
+    },
+    {
+       "code": "ICD-10 S93.0L",
+       "name": "Dislocation of left ankle",
+       "additionalName": "N/A",
+       "billable": true
+    },
+    {
+       "code": "ICD-10 S93.2R",
+       "name": "Rupture of ligaments at right ankle/foot level",
+       "additionalName": "N/A",
+       "billable": true
+    },
+    {
+       "code": "ICD-10 S93.2L",
+       "name": "Rupture of ligaments at left ankle/foot level",
+       "additionalName": "N/A",
+       "billable": true
+    },
+    {
+       "code": "ICD-10 S93.40R",
+       "name": "Sprain and strain of right ankle: part unspecified",
+       "additionalName": "N/A",
+       "billable": true
+    },
+    {
+       "code": "ICD-10 S93.40L",
+       "name": "Sprain and strain of left ankle: part unspecified",
+       "additionalName": "N/A",
+       "billable": true
+    },
+    {
+       "code": "ICD-10 S93.41R",
+       "name": "Sprain and strain of right ankle: deltoid (ligament)",
+       "additionalName": "N/A",
+       "billable": true
+    },
+    {
+       "code": "ICD-10 S93.41L",
+       "name": "Sprain and strain of left ankle: deltoid (ligament)",
+       "additionalName": "N/A",
+       "billable": true
+    },
+    {
+       "code": "ICD-10 S93.42R",
+       "name": "Sprain and strain of right ankle: calcaneofibular (ligament)",
+       "additionalName": "N/A",
+       "billable": true
+    },
+    {
+       "code": "ICD-10 S93.42L",
+       "name": "Sprain and strain of left ankle: calcaneofibular (ligament)",
+       "additionalName": "N/A",
+       "billable": true
+    },
+    {
+       "code": "ICD-10 S93.43R",
+       "name": "Sprain and strain of right ankle: tibiofibular (ligament), distal",
+       "additionalName": "N/A",
+       "billable": true
+    },
+    {
+       "code": "ICD-10 S93.43L",
+       "name": "Sprain and strain of left ankle: tibiofibular (ligament), distal",
+       "additionalName": "N/A",
+       "billable": true
+    }
+ ]
+ 
